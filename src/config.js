@@ -6,7 +6,7 @@ module.exports = {
     //// HOSTING CONFIGURATION ////
 
     bindingAddress: '127.0.0.1',
-    port: 8080,
+    port: $PORT,
     crossDomainPort: 8081,
     publicDir: path.join(__dirname, '../public'), // set to null to disable
 
